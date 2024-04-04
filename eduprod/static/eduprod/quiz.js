@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
             btn.textContent = "Reveal Answer";
         } else {
             content.innerHTML = "No more questions.";
-            let currentQuestionIndex = 0;
+            currentQuestionIndex = 0; // Update the existing variable
             btn.textContent = "Reset";
         }
     }

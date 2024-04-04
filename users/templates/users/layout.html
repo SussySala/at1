@@ -29,3 +29,44 @@
     {% endblock %}
 </body>
 </html>
+
+<!-- layout.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Website{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <!-- Your header content here -->
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
+
+    <!-- Quiz code -->
+    <h1>Multiple Choice Quiz</h1>
+    <form method="post">
+        {% csrf_token %}
+        {% for question in questions %}
+        <div>
+            <ul>
+                {% for choice in question.choice_set.all %}
+                <li>
+                    <input type="radio" name="question_{{ question.id }}" value="{{ choice.id }}">
+                    {{ choice.choice_text }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </form>
+</body>
+</html>

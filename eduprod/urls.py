@@ -1,6 +1,6 @@
-from django.urls import path
-from . import views
+from django.urls import include, path
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', include('at1.urls')),  # Include specific URL patterns from the 'at1' app
+    # Other URL patterns for your project
 ]
