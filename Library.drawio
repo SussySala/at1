@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T05:07:12.496Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mVqtCO154f_70CF5M6Dl" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T05:07:43.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="4oV4O0hLCiIKj7Jz9E1O" version="24.4.10" type="github">
   <diagram name="Page-1" id="EAAXhlnD3NSpvqW1n32H">
     <mxGraphModel dx="2295" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
             <mxPoint x="380" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q_QFVs0fQt6uvf9vAb08-2" value="Is Borrowed" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E3ja3kEhC99o8EGt3xfG-38" target="E3ja3kEhC99o8EGt3xfG-30">
+        <mxCell id="q_QFVs0fQt6uvf9vAb08-2" value="Is Borrowed" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="E3ja3kEhC99o8EGt3xfG-38" target="E3ja3kEhC99o8EGt3xfG-30">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="350" y="730" as="sourcePoint" />
             <mxPoint x="510" y="730" as="targetPoint" />
